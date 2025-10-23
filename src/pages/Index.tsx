@@ -13,7 +13,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-hidden">
       <Navbar />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ const Index = () => {
               className="h-52 w-auto mb-2"
             />
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-3 whitespace-nowrap animate-pulse animate-fade-in transform hover:scale-105 transition-transform duration-300">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-3 animate-pulse animate-fade-in transform hover:scale-105 transition-transform duration-300">
             Welcome to Durkkas Innovations Pvt. Ltd
           </h1>
           <p className="text-2xl md:text-3xl font-semibold text-white/80 mb-4 animate-fade-in delay-200">
@@ -43,7 +43,7 @@ const Index = () => {
             Automate Attendance, Leaves, and Communication Effortlessly
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto mt-14">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-14">
             <RoleCard
               title="Admin"
               icon={ShieldCheck}
