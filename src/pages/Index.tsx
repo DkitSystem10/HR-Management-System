@@ -18,29 +18,29 @@ const Index = () => {
       
       {/* Hero Section */}
       <section 
-        className="relative pt-16 min-h-[600px] flex items-center justify-center"
+        className="relative pt-20 min-h-[700px] flex items-center justify-center"
         style={{
           backgroundImage: `linear-gradient(rgba(30, 136, 229, 0.85), rgba(21, 101, 192, 0.85)), url(${heroImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center py-20 animate-fade-in">
-          <div className="flex justify-center mb-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center py-12 animate-fade-in">
+          <div className="flex justify-center mb-4">
             <img
               src={logoImage}
               alt="HR Management System Logo"
-              className="h-16 w-auto mb-4"
+              className="h-52 w-auto mb-2"
             />
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-3">
             Welcome to HR Management System
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto">
             Automate Attendance, Leaves, and Communication Effortlessly
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto mt-14">
             <RoleCard
               title="Admin"
               icon={ShieldCheck}
