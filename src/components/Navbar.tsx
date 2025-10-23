@@ -10,10 +10,10 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-4 text-xl font-semibold text-primary">
             <img
               src={logoImage}
-              alt="HR Management System Logo"
+              alt="Durkkas Innovations Pvt. Ltd Logo"
               className="h-14 w-auto"
             />
-            <span className="text-lg md:text-xl">HR Management System</span>
+            <span className="text-lg md:text-xl">Durkkas Innovations Pvt. Ltd</span>
           </Link>
           
           <div className="hidden md:flex items-center gap-8">

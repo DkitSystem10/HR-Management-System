@@ -29,14 +29,17 @@ const Index = () => {
           <div className="flex justify-center mb-4">
             <img
               src={logoImage}
-              alt="HR Management System Logo"
+              alt="Durkkas Innovations Pvt. Ltd Logo"
               className="h-52 w-auto mb-2"
             />
           </div>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-3">
-            Welcome to HR Management System
+          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-3 whitespace-nowrap animate-pulse animate-fade-in transform hover:scale-105 transition-transform duration-300">
+            Welcome to Durkkas Innovations Pvt. Ltd
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto">
+          <p className="text-2xl md:text-3xl font-semibold text-white/80 mb-4 animate-fade-in delay-200">
+            HR Management System
+          </p>
+          <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto animate-fade-in delay-500">
             Automate Attendance, Leaves, and Communication Effortlessly
           </p>
           
